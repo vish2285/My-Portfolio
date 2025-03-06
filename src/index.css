@@ -1,0 +1,10 @@
+.icon-large {
+    font-size: 30px;
+  }
+body{
+  background-color: rgb(147 197 253);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
