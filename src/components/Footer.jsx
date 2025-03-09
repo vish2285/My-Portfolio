@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="flex-row justify-evenly text-center align-center gap-16">
+    <div id = "Contact" className="flex-row justify-evenly text-center align-center gap-16">
       <div>
         <div className=" text-2xl font-bold text-white text-center pb-5">Social</div>
         <div className=" flex flex-row justify-evenly align-middle items-center pr-2 pt-3.5">

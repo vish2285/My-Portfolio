@@ -1,4 +1,4 @@
-// Header.jsx
+// Header.jsx child
 import React from 'react';
 import { FaBarsStaggered } from 'react-icons/fa6';
 import Typed from 'typed.js';
@@ -22,7 +22,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="lg:flex">
+    <div id ="About" className="lg:flex">
       <div className="fixed top-0 left-0 w-full z-10 bg-blue-950">
         <nav className="flex flex-row justify-between items-center px-8 py-4">
           <img className="h-9 md:h-12" src="/img/v-logo.svg" alt="Logo" />
