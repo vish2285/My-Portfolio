@@ -1,5 +1,6 @@
 import Header from "./components/Header"
-import Body from "./components/Body"
+import Experience from "./components/Experience"
+import Project from "./components/Project"
 import Footer from "./components/Footer"
 import StarAnimation from "./components/StarAnimation"
 
@@ -9,7 +10,8 @@ function App() {
     <>
       <div className=" text-white min-h-screen w-full flex flex-col gap-16 bg-repeat-x"style={{ backgroundImage: "url('/img/CTA.png')", backgroundSize: "cover", backgroundPosition: "center center", backgroundRepeat: "repeat" }}>
         <Header/>
-        <Body/>
+        <Experience/>
+        <Project/>
         <StarAnimation/>
         <Footer/>
       </div>
