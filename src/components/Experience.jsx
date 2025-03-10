@@ -3,19 +3,19 @@ import React from "react";
 const experiences = [
   {
     id: 1,
-    company: "Google",
-    role: "Software Engineer",
-    duration: "2022 - Present",
-    image: "/google-logo.png",
-    description: "Developing scalable cloud applications and AI models.",
+    company: "City of Sacramento",
+    role: "Intern- Devlopment Enginner",
+    duration: "Dec 2024 - Present",
+    image: "./public/img/cityofsac.png",
+    description: "",
   },
   {
     id: 2,
-    company: "Microsoft",
-    role: "Frontend Developer",
-    duration: "2020 - 2022",
-    image: "/microsoft-logo.png",
-    description: "Designed and implemented user interfaces for Office 365.",
+    company: "BAPS",
+    role: "Designer",
+    duration: "Jun 2023 - Aug 2023",
+    image: "./public/img/baps.jpg",
+    description: "Designed an enormous directional map using Fusion 360 and helped construct it with a team for the second largest Hindu temple in the world at Robbinsville, New Jersey ",
   },
   {
     id: 3,
@@ -50,7 +50,7 @@ const ExperienceCard = ({ experience }) => {
 
 const ExperiencePage = () => {
   return (
-    <div className="flex flex-wrap justify-center gap-6 p-10 bg-gray-100 min-h-screen">
+    <div className="flex flex-wrap justify-center gap-6 p-10 min-h-screen">
       {experiences.map((exp) => (
         <ExperienceCard key={exp.id} experience={exp} />
       ))}
