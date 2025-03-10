@@ -50,10 +50,13 @@ const ExperienceCard = ({ experience }) => {
 
 const ExperiencePage = () => {
   return (
-    <div className="flex flex-wrap justify-center gap-6 p-10 min-h-screen">
-      {experiences.map((exp) => (
-        <ExperienceCard key={exp.id} experience={exp} />
-      ))}
+    <div className="flex flex-col items-center p-10 min-h-screen">
+      <h1 className="text-3xl font-bold mb-8 text-center">Experience</h1>
+      <div className="flex flex-wrap justify-center gap-6">
+        {experiences.map((exp) => (
+          <ExperienceCard key={exp.id} experience={exp} />
+        ))}
+      </div>
     </div>
   );
 };
