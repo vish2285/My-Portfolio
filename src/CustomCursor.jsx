@@ -7,8 +7,6 @@ const CustomCursor = () => {
   useEffect(() => {
     const moveCursor = (e) => {
       setPosition({ x: e.clientX, y: e.clientY });
-
-      // Add slight delay for inner circle to create a floating effect
       setTimeout(() => {
         setInnerPosition({ x: e.clientX, y: e.clientY });
       }, 50);
