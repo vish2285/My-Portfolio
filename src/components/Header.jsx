@@ -1,4 +1,3 @@
-// Header.jsx child
 import React from 'react';
 import { FaBarsStaggered } from 'react-icons/fa6';
 import Typed from 'typed.js';
