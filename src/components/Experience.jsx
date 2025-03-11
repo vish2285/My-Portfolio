@@ -19,11 +19,11 @@ const experiences = [
   },
   {
     id: 3,
-    company: "Amazon",
-    role: "Backend Engineer",
-    duration: "2018 - 2020",
-    image: "/amazon-logo.png",
-    description: "Built robust APIs for e-commerce platforms.",
+    company: "Walmart",
+    role: "Store Cashier",
+    duration: "Mar 2022- Oct 2023",
+    image: "./public/img/walmart.jpeg",
+    description: "",
   },
 ];
 
@@ -49,13 +49,16 @@ const ExperienceCard = ({ experience }) => {
 };
 
 const ExperiencePage = () => {
-  return (
-    <div className="flex flex-wrap justify-center gap-6 p-10 min-h-screen">
-      {experiences.map((exp) => (
-        <ExperienceCard key={exp.id} experience={exp} />
-      ))}
-    </div>
-  );
-};
+    return (
+      <div id = "Experience" className="flex flex-col items-center p-19 min-h-screen">
+        <h1 className="text-3xl font-bold mb-8 text-center">Experience</h1>
+        <div className="flex flex-wrap justify-center gap-12">
+          {experiences.map((exp) => (
+            <ExperienceCard key={exp.id} experience={exp} />
+          ))}
+        </div>
+      </div>
+    );
+  };  
 
 export default ExperiencePage;
