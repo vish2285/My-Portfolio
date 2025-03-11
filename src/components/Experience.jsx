@@ -6,7 +6,7 @@ const experiences = [
     company: "City of Sacramento",
     role: "Intern- Devlopment Enginner",
     duration: "Dec 2024 - Present",
-    image: "./public/img/cityofsac.png",
+    image: "./img/cityofsac.png",
     description: "",
   },
   {
@@ -14,7 +14,7 @@ const experiences = [
     company: "BAPS",
     role: "Designer",
     duration: "Jun 2023 - Aug 2023",
-    image: "./public/img/baps.jpg",
+    image: "./img/baps.jpg",
     description: "Designed an enormous directional map using Fusion 360 and helped construct it with a team for the second largest Hindu temple in the world at Robbinsville, New Jersey ",
   },
   {
@@ -22,7 +22,7 @@ const experiences = [
     company: "Walmart",
     role: "Store Cashier",
     duration: "Mar 2022- Oct 2023",
-    image: "./public/img/walmart.jpeg",
+    image: "./img/walmart.jpeg",
     description: "",
   },
 ];
