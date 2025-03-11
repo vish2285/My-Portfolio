@@ -2,7 +2,7 @@ import React from 'react';
 
 const Body = () => {
   return (
-    <div id ="Projects" className="flex flex-col justify-center items-center text-center gap-12">
+    <div id ="Projects" className="flex flex-col justify-center items-center text-center gap-12 mb-24">
       <p className="font-bold text-white text-2xl">Projects are how I learn...</p>
       <div className="sm:grid sm:grid-cols-4 sm:gap-20">
         <div className="flex flex-col justify-center items-center gap-10 md:pt-3 md:col-span-2">

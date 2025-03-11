@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div id = "Contact" className="flex-row justify-evenly text-center align-center gap-16">
+    <div className="flex-row justify-evenly text-center align-center gap-16">
       <div>
         <div className=" text-2xl font-bold text-white text-center pb-5">Social</div>
         <div className=" flex flex-row justify-evenly align-middle items-center pr-2 pt-3.5">
@@ -12,8 +12,8 @@ const Footer = () => {
         </div>
       </div>
       <div className=" font-bold text-sm text-center align-text-bottom pt-16 pb-5">
-        <p><a target = "_blank" href="/img/Vishwas_Patel_Resume (1).pdf"><u>Here</u></a> is my Resume</p>
-        <p>© 2024 Vishwas Patel <a href="mailto:vishwas2284@gmail.com">or <u>Email Me</u></a></p>
+        <p><a target = "_blank" href="/img/Vishwas_Patel_Resume (1).pdf"><u className="hover:hover:scale-105">Here</u></a> is my Resume</p>
+        <p>© 2024 Vishwas Patel <a href="mailto:vishwas2284@gmail.com">or <u className="hover:hover:scale-105" >Email Me</u></a></p>
       </div>
     </div>
   )
