@@ -12,7 +12,7 @@ const Footer = () => {
         </div>
       </div>
       <div className=" font-bold text-sm text-center align-text-bottom pt-16 pb-5">
-        <p><a target = "_blank" href="/img/Vishwas_Patel_Resume (1).pdf"><u className="hover:hover:scale-105">Here</u></a> is my Resume</p>
+        <p><a target = "_blank" href="/img/Vishwas_Patel_Resume (3).pdf"><u className="hover:hover:scale-105">Here</u></a> is my Resume</p>
         <p>© 2024 Vishwas Patel <a href="mailto:vishwas2284@gmail.com">or <u className="hover:hover:scale-105" >Email Me</u></a></p>
       </div>
     </div>
