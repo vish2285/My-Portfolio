@@ -1,10 +1,10 @@
 # ShowCase
-My portfolio
+* My Portfolio
 
 # Overview Of Project
 Link: [vishthefish](https://vishthefish.netlify.app/)
 
-# Luminum has been built with 
+# My portfolio has been built with 
 [![Made with](https://skillicons.dev/icons?i=js,html,vite,css,react,tailwind)](https://skillicons.dev)
 
 # React + Vite
